@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0 160px 0 160px;
+    background-color: #F5F5F5;
+}
+.fira-sans{
+  font-family: "Fira Sans", sans-serif;
+}
+/* web top */
+.web-top{
+    display: flex;
+    justify-content: space-between;
+
+}
+.top-title{
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 32px;
+}
+.sign-in-btn{
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 24px;
+    padding: 15px 30px;
+    color: #006A50;
+    border-color: #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.sign-in-btn:hover{
+    background-color: skyblue;
+    transform: scale(1.05);
+}
+
+.banner{
+    display: flex;
+    margin-top: 20px;
+    background-color: #C6E4D6;
+    justify-content: space-between;
+    border-radius: 24px;
+    height: 560px;
+
+}
+.banner-details{
+    margin: 177px 64px 177px 60px;
+    padding: 0;
+    height: 326px;
+}
+.subtitle{
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5)
+}
+.info{
+    font-weight: bold;
+    font-size: 56px;
+    color: rgba(14, 14, 14, 1);
+    margin-top:16px;
+}
+.sriti-shoudho{
+    margin: 80px 60px 80px 0;
+    max-width: 474;
+    height: 400px;
+}
+.explore-btn{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 17px 34px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.explore-btn:hover{
+    background-color: #00b37d;
+    transform: scale(1.05);
+}
+.pillars{
+    margin-top: 80px;
+}
+.pillars-description{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.description{
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 16px;
+    align-items: start;
+}
+.description-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.about{
+    font-weight: 400;
+    font-size: 16px;
+    color:  rgba(14, 14, 14, 0.7)
+}
+.titles{
+    font-weight: bold;
+    font-size: 40px;
+}
+.future_description{
+    display: flex;
+    gap: 24px;
+}
+.details{
+    border-radius: 16px;
+    padding: 32px;
+
+}
+.details-1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.details-2{
+    background-color: rgba(198, 228, 214, 1);
+}
+.details-3{
+    background-color: rgba(247, 235, 207, 1);
+}
+.all-btn{
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.blue{
+    background-color: rgba(84, 144, 245, 1);
+}
+.green{
+    background-color: rgba(9, 161, 92, 1);
+}
+.yellow{
+    background-color: rgba(255, 194, 57, 1);
+} 
+.blue:hover{
+    background-color: blue;
+    transform: scale(1.05);
+}
+.green:hover{
+    background-color: green;
+    transform: scale(1.05);
+}
+.yellow:hover{
+    background-color: yellow;
+    transform: scale(1.05);
+}
+.speech{
+    background-image: url('/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    margin-top: 32px;
+    padding: 48px 24px;
+}
+.yunus{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.satelite-news{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 48px;
+    margin-bottom: 24px;
+}
+.img-satelite{
+    border-radius: 24px;
+}
+.dark-green{
+    background-color: rgba(0, 106, 80, 1);
+}
+.dark-green:hover{
+    background-color: darkgreen;
+    transform: scale(1.05);
+}
+.text-center{
+    text-align: center
+}
+.donation-amount{
+    display: flex;
+    margin-top: 32px;
+    gap: 24px;
+    margin-left: 105px;
+    margin-right: 105px;
+}
+.button-tk{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 40px;
+    border-radius: 16px;
+    cursor: pointer;
+    background-color: rgba(198, 228, 214, 1);
+}
+.button-tk:hover{
+    background-color: #00b37d;
+    transform: scale(1.05);
+}
+
+input[type="text"]{
+    margin-top: 32px;
+    text-align: center;
+    height: 64px;
+    width: 100%;
+    justify-content: center;
+    background-color: #rgba(255, 255, 255, 1);
+}
+.last-btn{
+    margin: 32px 550px 32px 550px;
+    width: 150px;
+    height: 56px;
+    background-color: #006A50;
+}
+.last-btn:hover{
+    background-color: #00b37d;
+    transform: scale(1.05);
+}
